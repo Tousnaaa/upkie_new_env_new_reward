@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2024 Inria
+
+## \namespace upkie.envs.rewards
+## \brief Reward functions used in Gymnasium environments.
+
+from .wheeled_inverted_pendulum_reward import WheeledInvertedPendulumReward
+from .reward_shaping import RewardShaping
+
+__all__ = [
+    "WheeledInvertedPendulumReward",
+    "RewardShaping",
+]
